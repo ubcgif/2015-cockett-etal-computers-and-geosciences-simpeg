@@ -22,7 +22,7 @@ project:
       affiliation: ubc
     - name: Adam Pidlisecky
       email: adampid@ucalgary.ca
-      # orcid: ORCHID-ID
+      # orcid: ORCID
       affiliation:
         id: ucalgary
         name: University of Calgary
