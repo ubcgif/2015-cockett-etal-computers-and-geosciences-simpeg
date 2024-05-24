@@ -4,7 +4,7 @@ _ Rowan Cockett, Seogi Kang, Lindsey J. Heagy, Adam Pidlisecky and Douglas W. Ol
 
 (https://doi.org/10.1016/j.cageo.2015.09.015)
 
-![thumbnail](./paper/thumbnail.png)
+![mappingDC](./paper/thumbnail.png)
 
 ## Summary
 
