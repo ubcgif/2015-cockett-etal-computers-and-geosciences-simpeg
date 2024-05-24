@@ -1,43 +1,57 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-JOURNAL
-  # title: TITLE OF PAPER
-  # description: SHORT DESCRIPTION HERE
+  id: ubcgif-2015-cockett-etal-computers-geosciences
+  title: An open source framework for simulation and gradient based parameter estimation in geophysical applications
+  description: Proposing a framework that supports many different types of geophysical forward simulations and deterministic inverse problems
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-  # doi: DOI
-  # arxiv: ARXIV
-  # github: GITHUB-URL
-  # date: YYYY/MM/DD # date of publication
-  # license: CC-BY-4.0  # uncomment this and the line below if open access
-  # open_access: true
+    - name: Rowan Cockett
+      email: rcockett@eos.ubc.ca
+      corresponding: true
+      orcid: 0000-0002-7859-8394
+      affiliation:
+        id: ubc
+        name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
+    - name: Seogi Kang
+      # email: EMAIL ID
+      orcid: 0000-0002-9963-936X
+      affiliation: ubc
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+    - name: Adam Pidlisecky
+      email: adampid@ucalgary.ca
+      # orcid: ORCHID-ID
+      affiliation: uoc
+    - name: Doulas W. Oldenburg
+      email: doug@eos.ubc.ca
+      orcid: 0000-0002-4327-2124
+      affiliation: ubc
+  doi: 10.1016/j.cageo.2015.09.015
+  # arxiv: 1610.00804
+  github: http://github.com/simpeg/simpeg
+  date: 2015/09/26 # date of publication
+  license: CC-BY-4.0  # uncomment this and the line below if open access
+  open_access: true
   venue:
-    # title: JOURNAL NAME
-    # url: JOURNAL URL
+    title: Computers & Geosciences
+    url: https://www.sciencedirect.com/science/article/pii/S009830041530056X
   history:
-    # received: YYYY/MM/DD
-    # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    received: 2015/01/14
+    accepted: 2015/09/23
+    published: 2015/09/26
   keywords:
-    # - KEYWORD 1
-    # - KEYWORD 2
-    # - KEYWORD 3
-    # - KEYWORD 4
+    - Geophysics 
+    - Numerical modeling 
+    - Inversion 
+    - Electromagnetics 
+    - Sensitivities 
+    - Object-oriented programming
   abbreviations:
-    # CSEM: controlled source electromagnetics
-    # EM: electromagnetics
+    SIMPEG: Simulation and Parameter Estimation in Geophysics
+    EM: electromagnetics
+    DC: Direct Current
   thumbnail: thumbnail.png
   numbering:
     headings: true
@@ -45,5 +59,5 @@ site:
   template: article-theme
   actions:
     - title: pdf
-      # url: NAME-OF-PDF.pdf
+      url: cockett-etal-computers-and-geosciences-simpeg-2015.pdf
       static: true
