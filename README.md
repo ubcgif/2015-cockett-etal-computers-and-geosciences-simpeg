@@ -1,6 +1,6 @@
 # An open source framework for simulation and gradient based parameter estimation in geophysical applications 
 
-_ Rowan Cockett, Seogi Kang, Lindsey J. Heagy, Adam Pidlisecky and Douglas W. Oldenburg_
+_Rowan Cockett, Seogi Kang, Lindsey J. Heagy, Adam Pidlisecky and Douglas W. Oldenburg_
 
 (https://doi.org/10.1016/j.cageo.2015.09.015)
 
