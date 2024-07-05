@@ -22,8 +22,10 @@ project:
       affiliation: ubc
     - name: Adam Pidlisecky
       email: adampid@ucalgary.ca
-      # orcid: ORCHID-ID
-      affiliation: uoc
+      # orcid: ORCID
+      affiliation:
+        id: ucalgary
+        name: University of Calgary
     - name: Doulas W. Oldenburg
       email: doug@eos.ubc.ca
       orcid: 0000-0002-4327-2124
@@ -42,11 +44,11 @@ project:
     accepted: 2015/09/23
     published: 2015/09/26
   keywords:
-    - Geophysics 
-    - Numerical modeling 
-    - Inversion 
-    - Electromagnetics 
-    - Sensitivities 
+    - Geophysics
+    - Numerical modeling
+    - Inversion
+    - Electromagnetics
+    - Sensitivities
     - Object-oriented programming
   abbreviations:
     SIMPEG: Simulation and Parameter Estimation in Geophysics
